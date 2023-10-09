@@ -60,5 +60,5 @@
 [init]
   defaultBranch = master
 [user]
-	email = sarah.belledent@gmail.com
+	email = gh api user/emails | jq -r '.[].email'
 	name = Sarah Belledent
